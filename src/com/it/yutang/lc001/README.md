@@ -66,3 +66,6 @@ public static int[] twoSum02(int[] nums, int target) {
 | :-----: | :-----: |
 | 两层循环遍历 | 29ms    |
 | 哈希表一次遍历 | 5ms      |
+
+#### 请指教
+有更优方案，欢迎指教。
