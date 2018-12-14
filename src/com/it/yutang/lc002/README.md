@@ -21,9 +21,17 @@
 ##### 正确解法
 
 1. 可初始化一个表头，同时当前节点也指向表头；
+
+![image](https://github.com/IT-YuTang/leetcode-brush/blob/master/src/com/it/yutang/lc002/img/img1.png)
 2. 遍历两个链表，当有一个不空时，继续循环。当其中一个链表为空时，值为0，两个节点相加，需要注意的是加上它的进位值。如果当前结果大于9，则会生成进位值；
+
+![image](https://github.com/IT-YuTang/leetcode-brush/blob/master/src/com/it/yutang/lc002/img/img2.png)
 3. 当前节点继续后移，直到链表遍历完成；
+
+![image](https://github.com/IT-YuTang/leetcode-brush/blob/master/src/com/it/yutang/lc002/img/img3.png)
 4. 最后需要判断最后一个节点是否有进位，如果有进位，生成一个新的节点存放进位值。
+
+![image](https://github.com/IT-YuTang/leetcode-brush/blob/master/src/com/it/yutang/lc002/img/img4.png)
 
 
 ###### 解题代码
