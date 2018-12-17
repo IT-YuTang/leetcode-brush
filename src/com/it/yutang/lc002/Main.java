@@ -1,10 +1,8 @@
 package com.it.yutang.lc002;
 
-import java.util.Stack;
-
 /**
  * @Author: 渔◕‿◕堂
- * @Description:
+ * @Description: 两数相加
  * @Date: 2018/12/13
  */
 public class Main {
