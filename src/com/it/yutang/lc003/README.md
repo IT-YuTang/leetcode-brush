@@ -32,11 +32,19 @@
 
 1. 第一个不重复位置(**firstIndex**)默认从0开始，遍历字符串，不重复时，长度为下标相减同时加1；
 
+![image](https://github.com/IT-YuTang/leetcode-brush/blob/master/src/com/it/yutang/lc003/img/img1.png)
+
 2. 发遍历到重复字符时，需要之前的重复字符位置加1，向右移动；
 
-3.依此类推，遍历到重复字符需要右移；
+![image](https://github.com/IT-YuTang/leetcode-brush/blob/master/src/com/it/yutang/lc003/img/img2.png)
 
-4.需要注意的是，如果两个重复字符中间还有其它重复字符时，需要取大的下标作为不重复位置继续遍历；
+3. 依此类推，遍历到重复字符需要右移；
+
+![image](https://github.com/IT-YuTang/leetcode-brush/blob/master/src/com/it/yutang/lc003/img/img3.png)
+
+4. 需要注意的是，如果两个重复字符中间还有其它重复字符时，需要取大的下标作为不重复位置继续遍历；
+
+![image](https://github.com/IT-YuTang/leetcode-brush/blob/master/src/com/it/yutang/lc003/img/img4.png)
 
 
 
